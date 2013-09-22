@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>DentaleShare</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <!-- Header -->
+	<header>
+		<div class="sticky-nav">
+			<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+			
+			<div id="logo">
+				<!-- <a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a> -->
+				<a id="goUp" href="https://www.dentaleshare.com/login" target="_blank" title="Login to Dental Share."></a>
+			</div>
+			
+			<nav id="menu">
+				<ul id="menu-nav">
+					<li class="current"><a href="#home-slider">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#plans">Plans & Pricing</a></li>
+					<li><a href="#aboutus">About Us</a></li>
+					<li><a href="#contactus">Contact Us</a></li>
+ 					<li><a href="https://www.dentaleshare.com/login" class="external" target="_blank" title="Login to DentaleShare."><img src="_include/img/Member-Login-Button.gif" alt="Login to DentaleShare."></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- End Header -->
+	<div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#features"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Our Features Section -->
+<div id="features" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Features & Benefits</h2>
+                    <h3 class="title-description">Discover what we can do for you.</h3>
+					<!-- <img src="_include/img/work/FeaturesScreen_BenefitsText.jpg" alt=""> This causing horizontal scroll bar-->
+					<h3 class="title-description">Why an integrated, all-in-one software system is better for your practice?</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work"></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Features</a></li>
+						<li><a href="#filter" data-option-value=".Integration">Software Integration</a></li>
+                        <li><a href="#filter" data-option-value=".Collaboration">Collaboration</a></li>
+						<li><a href="#filter" data-option-value=".Security">HIPAA Security</a></li>
+                        <li><a href="#filter" data-option-value=".Archiving">History Report & Data Archiving</a></li>
+                        <li><a href="#filter" data-option-value=".iPad">iPad Application</a></li>
+                        <li><a href="#filter" data-option-value=".Notification">Automatic Notification System</a></li>
+                        <li><a href="#filter" data-option-value=".WrittenOrder">Online Written Order Form</a></li>
+                        <li><a href="#filter" data-option-value=".Allinone">All-in-one Referral System</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Integration">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Software Integration" href="_include/img/features/full/Feature_Integration.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/Feature_Integration.jpg" alt="Having an integrated system for your practice saves time and money, increases business productivity, and improves data accuracy. DentaleShare offers direct software integration with Dexis, Kodak Dental Imaging/SoftDent, Schick and WinOMS.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Security">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HIPAA Security" href="_include/img/features/full/FeaturesScreen_SecurityImage.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_SecurityImage.jpg" alt="No matter what happens t o your devices, your files are safely stored in our secure data centers.  DentaleShare uses a unique 128-bit encryption to provide a secure connection between your web browser and our web servers. SSL encryption technology ensures that any information being transmitted is encrypted before being sent over the Internet.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 iPad">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="DentaleShare Mobile iPad Application" href="_include/img/features/full/FeaturesScreen_iPadImage.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_iPadImage.jpg" alt="Access your referrals wherever you go using our DentaleShare Mobile iPad application. DentaleShare Mobile provides you with secure access to view and collaborate on any referral cases from your DentaleShare's account. Download on the Apple App Store.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Archiving">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="History Report and Data Archiving" href="_include/img/features/full/FeaturesScreen_ArchivingImage.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_ArchivingImage.jpg" alt="Keep a history report of your referrals, notes, and activities for quick reference. Our data archive feature allows you to store inactive referral cases where you can easily locate and retrieve them as needed.">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Allinone">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="All-in-one Referral System" href="http://www.youtube.com/watch?v=pUTrEdrg-Zw">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_AllinoneImage.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Collaboration">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Live Collaboration" href="_include/img/features/full/FeaturesScreen_Collaboration1Image.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_Collaboration1Image.jpg" alt="Invite doctors from your  network to collaborate on referral cases. Easy-send invitation functionality allows you to instantly send a request for other doctors to participate in the collaboration session.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Allinone">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="All-in-one Referral System" href="_include/img/features/full/FeaturesScreen_AllinoneImage2.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_AllinoneImage2.jpg" alt="DentaleShare is an secure, all-in-one referral system that allows multiple practices to benefit from instant access to exchanged patient health information without having to worry about different dental software formats.">
+                            </li>
+                        	<!-- End Item Project -->
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 WrittenOrder">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Built-in Written Order Form" href="_include/img/features/full/FeaturesScreen_WrittenOrderImage.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_WrittenOrderImage.jpg" alt="DentaleShare offers a built-in written order form to help streamline the referral process and maintan consistency in your record keeping. With the built-in written order form, DentaleShare will take your practice a step closer to a paperless environment.">
+                            </li>
+                        	<!-- End Item Project -->
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 Notification">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Automatic Notification System" href="_include/img/features/full/FeaturesScreen_NotificationImage.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/features/thumbs/FeaturesScreen_NotificationImage.jpg" alt="Receive instant notifications about new referrals and status updates to existing referrals through your DentaleShare account portal and e-mail alerts.">
+                            </li>
+                        	<!-- End Item Project -->
+			
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+
+    </div>
+	
+	<!-- Begin Banner -->
+	<div><hr class="style-four" /></div>
+	<!-- Start Profile -->
+	<div>
+		<div class="image-wrap">
+			<img src="_include/img/features/Features_Banner.png" alt="">
+		</div>
+	</div>
+	<div><hr class="style-five" /></div>
+	<!-- End Banner -->
+
+</div>
+<!-- End Features Section -->
+
+<!-- Plans and Pricing Section -->
+<div id="plans" class="page">
+<div class="container">
+	<div class="row">
+		<!-- Title Page -->
+		<div class="span12">
+			<div class="title-page">
+				<h2 class="title">Plans & Pricing</h2>
+				<h3 class="title-description">Select a plan that's right for your practice.</h3>
+			</div>
+		</div>
+		<!-- End Title Page -->
+    
+  	    <!-- Start Pricing Details -->
+    	<div class="span12 profile">
+        	<div class="image-wrap">
+				<img src="_include/img/plans/plans_pricing.png" alt="Plans and Pricing">
+            </div>
+        </div>
+		
+		<div class="span12">
+			<div class="contact-page">
+				<h3 class="title">Ready to sign up or have a question for us?</h3>
+				<h4 class="title-description">Contact us today and a helpful member of our team will schedule a time to review your specific needs.</h4>
+			</div>
+		</div>      
+
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <a href="messageus.html" target="_blank"><img src="_include/img/contact/messageusbutton.png" alt="Message Us"></a>
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <img src="_include/img/contact/callusbutton.png" alt="Call Us @ 1866-846-8337">
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <a href="mailto:support@dentaleshare.com"><img src="_include/img/contact/emailusbutton.png" alt="Email Us @ support@dentaleshare.com"></a>
+            </div>
+        </div>
+
+		<div class="span12"><hr class="standard" /></div>
+		
+    	<div class="span12">
+        	<div class="guarantee">
+<!-- 				<div class="guarantee-title"><p>&nbsp;</p></div>
+ -->				<div class="guarantee-title">30-Day Satisfaction Guarantee</div>
+				<p><div class="guarantee-desc">At DentaleShare, we stand behind our quality products and our commitment to you.</div></p>
+				<p><div class="guarantee-content">All software products and/or services that you purchased through DentaleShare come with a 30-day 
+					money back guarantee. DentaleShare will provide you with a full refund of the purchase price, subject
+					to policy guidelines and warranty and license agreement provisions.</div></p>
+				<p><div class="guarantee-note">For additional information regarding our refund policy, please click on the following link: <a href="https://www.dentaleshare.com/privacy" target="_blank">Privacy</a> & <a href="https://www.dentaleshare.com/terms" target="_blank">Terms</a></div></p>	
+<!-- 				<img src="_include/img/plans/30Day-Guarantee.gif" alt="30Day-Guarantee">
+ -->            </div>
+        </div>		
+        <!-- End Pricing Details -->
+	
+    </div>
+
+</div>
+</div>
+<!-- End Plans and Pricing Section -->
+
+
+<!-- About Us Section -->
+<div id="aboutus" class="page-alternate">
+    <!-- Title Page -->
+	<div class="container">
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About DentaleShare</h2>
+                <h3 class="title-description">Learn about our team and culture.</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+	<!-- End Title Page -->
+    
+    <!-- People -->
+    	
+		<div><hr class="style-four" /></div>
+        <!-- Start Profile -->
+		<div class="row">
+			<div class="span4">
+				<div class="image-wrap">
+					<img src="_include/img/about/integration.gif" alt="">
+				</div>
+			</div>
+			<div class="span12">
+				<div class="topic-content">
+					<p>&nbsp;</p>
+					<p>DentaleShare is an interoperable patient health records management system, empowering 
+					clinical care teams to share, manage and provide better health care to patients through an 
+					interactive platform without compromising the integrity and security of the data. Our goal  
+					is to develop and deliver the premier interoperable system where diverse healthcare systems 
+					and organizations can work seamlessly and securely to communicate and exchange electronic 
+					patient health information (ePHI) in real-time.</p>
+
+					<p>We are committed to providing innovative solutions designed around the needs of clinical care 
+					teams and patients to deliver the best care possible. We believe we can make a difference 
+					by removing technological boundaries in healthcare and integrating innovative and affordable 
+					technology solutions with the entire patient entire care cycle. We develop and implement technology to
+					improve our clients’ productivity and efficiency while ensuring data security and compliance 
+					with the HIPAA and HITECH rules and regulations.</p>
+				</div>
+			</div>   	
+		</div>
+		<!-- End Profile -->
+		<div><hr class="style-five" /></div>
+
+<div class="container">
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span12">
+        	<div class="image-wrap">
+                <img src="_include/img/about/Cloud_IDEAS.png" alt="">
+            </div>
+        </div>
+		<div class="span12">
+            <div class="contact-details">
+				<p><span class="topic-title">INNNOVATION</span><br />
+				We are constantly looking for ways to improve the quality of patient care, while maintaining a comprehensive approach to data security and integration.</p>
+
+				<p><span class="topic-title">DIVERSITY</span><br />
+				We believe in the power of people connecting together under one platform to create better workflows and positive information exchange
+				experiences.</p>
+
+				<p><span class="topic-title">EXPERIENCE</span><br />
+				Our team has the experience and knowledge to understand the specifications and requirements of healthcare software and develop solutions to meet those needs. 
+				We offer a powerful culture of innovation, collaboration, and team effort to deliver the final results to our clients.</p>
+
+				<p><span class="topic-title">ACCESSIBILITY</span><br />
+				Imagine a platform that allows multiple practices to benefit from instant communication and access to exchanged information without software limitations. 
+				We provide flexible access to electronic patient health information and easy exchange within your referral network.</p>
+
+				<p><span class="topic-title">SECURITY</span><br />
+				We are committed to addressing the challenges of seamlessly and securely exchanging patient health information within the medical sector, 
+				and giving practices with different software systems the ability to easily exchange data and communicate.</p>
+			</div>
+        </div>   	
+        <!-- End Profile -->
+		
+		<div class="span12"><hr class="standard" /></div>
+        <div class="span12">
+           <div class="title-page">
+				<span class="staff-name">Meet Our Management Team</span>
+			</div>
+        </div>   	
+        <!-- Start Profile -->
+		<div class="span9">
+            <div class="staff">
+				<p><span class="staff-name">Dimitry Shuster</span><br />
+				<span class="staff-title">Chief Technology Officer</span></p>
+				<p class="staff-desc">Dimitry Shuster serves as the Chief Technology Officer for DentaleShare. Dimitry is responsible for all strategic 
+				direction and vision for technology across the entire organization. He leads the team in software development, 
+				quality control for products and services, and strategic business planning between partnered companies.</p>
+
+				<p class="staff-desc">Dimitry has 18 years of hands-on experience in leading the design and development of software and hardware
+				products used by big enterprises and small businsses, and a proven track record of developing, executing, 
+				and launching innovative software products to achieve critical business results and success.</p>
+
+				<p class="staff-desc">Prior to joining DentaleShare, Dimitry was the Senior Software Engineer at UPS, 
+				where he developed the Quick Cost Calculator application now used worldwide on the UPS website.</p>
+
+				<p class="staff-desc">Dimitry received his Bachelor of Science in Computer Science from the University of Maryland, 
+				and a Master of Science in Computer Science from Johns Hopkins University.</p>
+			</div>
+        </div>   	
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <img src="_include/img/about/Dimitry_Profile_TBG.png" alt="">
+            </div>
+        </div>
+        <!-- End Profile -->
+		
+        <div class="span12">
+            <div class="contact-details"><p>&nbsp;</p></div>
+        </div>		
+		
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <img src="_include/img/about/Lauren_Profile_TBG.png" alt="">
+            </div>
+        </div>
+		<div class="span9">
+            <div class="staff">
+				<p><span class="staff-name">Lauren Lopez</span><br />
+				<span class="staff-title">Executive Marketing Director</span></p>
+				<p class="staff-desc">Lauren Lopez is the Executive Marketing Director at DentaleShare. Lauren brings a creative twist to any new projects. 
+				She is responsible for the company’s marketing and advertising initiatives, including its marketing planning cycle, business development, 
+				product and service management, and customer and partner engagement.</p>
+
+				<p class="staff-desc">Lauren’s proven ability to turn plans into action comes from over ten years of experience in marketing, 
+				product life cycle, business planning, market analysis, and dedication to customer experience and customer relationship management. 
+				She enjoys volunteering at charity events, and recently acted as the IT Co-Chair for the Eastern Shore Mission of Mercy and Mid-Maryland Mission of Mercy 2013.</p>
+
+				<p class="staff-desc">Lauren graduated from California State University, Fullerton with a Bachelor of Arts in Business Administration
+				with a concentration in Marketing.</p>
+			</div>
+        </div>   	
+        <!-- End Profile -->       
+
+		<div class="span12">
+            <div class="contact-details"><p>&nbsp;</p></div>
+        </div>	
+		
+        <!-- Start Profile -->
+		<div class="span9">
+            <div class="staff">
+				<p><span class="staff-name">Leon Vesnovsky</span><br />
+				<span class="staff-title">Vice President of Sales</span></p>
+				<p class="staff-desc">Leon is the Vice President of Sales at DentaleShare, where he manages the sales organization and operations, 
+				develops  new revenue streams and market opportunities, and executes complex software applications and software infrastructure solutions.</p>
+
+				<p class="staff-desc">Leon is a successful entrepreneur and business executive with 30 years of experience in growing new businesses 
+				and delivering value to clients. He is an expert in identifying market opportunities and implementing sales strategies, 
+				with the skills to lead across multi-disciplinary teams.</p>
+
+				<p class="staff-desc">Leon also currently serves as the Vice President and Co-founder at ZystemsGo, Inc. His knowledge and  
+				understanding of clients’ specific needs and goals are key components that contributed to the success of
+				ZystemsGo.</p>
+
+				<p class="staff-desc">Leon  earned his Bachelor of Science and Master of Science degress in Electrical Engineering from the 
+				Railroad University of Moscow.</p>
+			</div>
+        </div>   	
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <img src="_include/img/about/Leon_Profile_TBG.png" alt="">
+            </div>
+        </div>
+        <!-- End Profile -->
+		
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Us Section -->
+
+
+<!-- Contact Section -->
+<div id="contactus" class="page">
+<div class="container">
+	<!-- Google Map Section -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Contact Us</h2>
+                <h3 class="title-description">We'd love to hear from you.</h3>
+            </div>
+        </div>
+		<div class="span2">&nbsp;</div>
+		<div class="span8">
+        	<ul id="thumbs">
+				<li class="item-thumbs span8 Google_maps">
+					<a class="hover-wrap fancybox-media" data-fancybox-group="Google_maps" title="222 Schilling Circle suite 150, Hunt Valley, MD" href="http://maps.google.com/?ll=39.492389,-76.663332&spn=0.003833,0.010568&t=m&z=10">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+					</a>				
+					<img src="_include/img/contact/GoogleMap.jpg" alt="">
+				</li>
+			</ul>
+		</div>   
+		<div class="span2">&nbsp;</div>
+
+		<div class="span12">
+			<div class="contact-page">
+				<h1 class="title">Need to reach us?</h1>
+				<h5 class="title-description">Contact us today and a helpful member of our team will schedule a time to review your specific needs.</h5>
+			</div>
+		</div>      
+
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <a href="messageus.html" target="_blank"><img src="_include/img/contact/messageusbutton.png" alt="Message Us"></a>
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <img src="_include/img/contact/callusbutton.png" alt="Call Us @ 1866-846-8337">
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <a href="mailto:support@dentaleshare.com"><img src="_include/img/contact/emailusbutton.png" alt="Email Us @ support@dentaleshare.com"></a>
+            </div>
+        </div>
+		<div class="span12"><hr class="standard" /></div>
+        <div class="span12">
+        	<div class="contact-details">
+				<strong>DentaleShare</strong><br />
+				<i>When Patient Privacy Matters</i><br/> 
+				222 Schilling Circle, Suite 150<br />
+				Hunt Valley, MD 21031
+            </div>
+        </div>				
+	
+	</div>
+    <!-- End Google Map Section -->	
+</div>
+</div>	
+	
+<!-- End Contact Us Section -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 DentaleShare | <a href="https://www.dentaleshare.com/privacy" target="_blank">Privacy</a> & <a href="https://www.dentaleshare.com/terms" target="_blank">Terms</a> | Site Map</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
